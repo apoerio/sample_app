@@ -17,7 +17,7 @@ class MicropostsController < ApplicationController
     @micropost.destroy
     redirect_to root_url
   end
-
+  
   private
 
     def correct_user
